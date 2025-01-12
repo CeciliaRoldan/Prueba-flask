@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return '¡Hola, mundo!'
+    return 'Â¡Hola, mundo!'
 
 @app.route('/my_function', methods=['POST'])
 def my_function():
